@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "LeftAlone (Debug)",
+			"request": "launch",
+			"preLaunchTask": "LeftAlone Win64 Debug Build",
+			"program": "E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAlone (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "LeftAlone Win64 DebugGame Build",
+			"program": "E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAlone (Development)",
+			"request": "launch",
+			"preLaunchTask": "LeftAlone Win64 Development Build",
+			"program": "E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAlone (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "LeftAlone Win64 Shipping Build",
+			"program": "E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAlone (Test)",
+			"request": "launch",
+			"preLaunchTask": "LeftAlone Win64 Test Build",
+			"program": "E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAloneEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "LeftAloneEditor Win64 Debug Build",
+			"program": "C:\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\LeftAlone.uproject"
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAloneEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "LeftAloneEditor Win64 DebugGame Build",
+			"program": "C:\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\LeftAlone.uproject"
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "LeftAloneEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "LeftAloneEditor Win64 Development Build",
+			"program": "C:\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\LeftAlone.uproject"
+			],
+			"cwd": "C:\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"E:\\Documents\\Programming\\Gaming Development\\Unreal\\Constelllate Interactive\\LeftAlone\\LeftAlone.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\UE_4.25"
+		}
+	]
+}
